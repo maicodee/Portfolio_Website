@@ -8,35 +8,29 @@ body {
 }
 
 /*Header */
-
-h1{
-
-font-size: 50px;
-display: flex;
-
+h1 {
+    font-size: 50px;
+    display: flex;
 }
 
-.container{
+.container {
     padding: 10px 10%;
     padding-left: 0%;
 }
 
-nav{
-
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-nav ul li{
-
+nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-
-
 }
+
 #header nav ul li a {
     color: #d1d1d1; /* Color for navigation menu links */
     text-decoration: none;
@@ -44,10 +38,9 @@ nav ul li{
     position: relative;
 }
 
-.header-text span{
+.header-text span {
     color: rgb(64, 44, 173);
 }
-
 
 #header nav ul li a::after {
     content: '';
@@ -71,23 +64,22 @@ nav ul li{
     margin-top: 20px;
 }
 
-.header-text p span{
+.header-text p span {
     font-size:  50px;
 }
 
-
-.header-text h1{
+.header-text h1 {
     font-size:  30px;
 }
 
-
-/*Projects Styling*/
+/* Projects Styling */
 .Projects_Container {
     margin-left: 100px; /* Left margin for the Projects section */
     margin-top: 100px;
     font-size: 50px;
     cursor: pointer;
     font-weight: bold;
+    padding-top: 50px; /* Add padding for smooth scrolling */
 }
 
 .Project_Titles {
@@ -96,27 +88,22 @@ nav ul li{
     font-size: 30px;
     color: rgb(248, 244, 244);
     display: flex; /* Use flexbox to arrange images side by side */
-
     justify-content: space-start; /* Add equal spacing between images */
-    
-
 }
+
 .Project_Titles a {
     margin-right: 10px; /* Add some spacing between each image */
-  }
-.Project_Titles a img{
-      
-    width: 400px; /* Set the width of image to 300 pixels */
+}
+
+.Project_Titles a img {
+    width: 400px; /* Set the width of the image to 400 pixels */
     height: 400px;
     transition: transform 0.3s ease;
-
 }
 
 .Project_Titles a img:hover {
-   
     transform: scale(1.1); /* Increase the size by 10% (adjust as desired) */
-
-  }
+}
 
 .git-color {
     color: blue; /* Color for Git links */
@@ -125,6 +112,7 @@ nav ul li{
 /* Education styles */
 .Education_Container {
     padding-left: 50px; /* Adding space from the left side for the Education section */
+    padding-top: 50px; /* Add padding for smooth scrolling */
 }
 
 .Education_Container h1 {
@@ -135,10 +123,8 @@ nav ul li{
 }
 
 .education {
-    margin: 10px; /*margin for the topics under eduction title*/
+    margin: 10px; /*margin for the topics under education title*/
 }
-
-
 
 /* Contact styles */
 .container {
@@ -148,14 +134,13 @@ nav ul li{
     text-align: left;
     margin-left: 100px; /* Adding space from the left side for the Contact section */
     font-size: 40px;
+    padding-top: 50px; /* Add padding for smooth scrolling */
 }
-
-
 
 .contact-links {
     list-style-type: none;
     padding: 0;
-    text-align: left;/*Styling of icons*/
+    text-align: left; /*Styling of icons*/
     display: flex; /* Add flexbox to align icons side by side */
 }
 
@@ -164,7 +149,11 @@ nav ul li{
 }
 
 .contact-links li a {
-    text-decoration:hwb(from color h w b);
-    color: #007BFF; /* colors for the icons*/
+    text-decoration: none;
+    color: #007BFF; /* colors for the icons */
 }
 
+/* Additional styles for the smooth scrolling effect */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling for the whole page */
+}
