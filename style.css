@@ -1,7 +1,6 @@
-/* Keep the background color */
 body {
-    background-color: #1d1d20; /* Background color of the page */
-    color: #d1d1d1; /* Text color */
+    background-color: #1d1d20;
+    color: #d1d1d1;
     font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -32,7 +31,8 @@ nav ul li {
 }
 
 #header nav ul li a {
-    color: #d1d1d1; /* Color for navigation menu links */
+    color: #d1d1d1;
+    /* Color for navigation menu links */
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -46,7 +46,8 @@ nav ul li {
     content: '';
     width: 0;
     height: 3px;
-    background: #d1d1d1; /* Color for the underline effect on hover */
+    background: #d1d1d1;
+    /* Color for the underline effect on hover */
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -54,106 +55,116 @@ nav ul li {
 }
 
 #header nav ul li a:hover::after {
-    width: 100%; /* Underline effect on hover */
+    width: 100%;
+    /* Underline effect on hover */
 }
 
 /* Additional styles for the "Hello, I'm Vaishnavi Padhar" section */
 .header-text {
-    margin-left: 100px; /* Left margin for the "Hello, I'm Vaishnavi Padhar" section */
+    margin-left: 100px;
+    /* Left margin for the "Hello, I'm Vaishnavi Padhar" section */
     font-size: 30px;
-    margin-top: 20px;
+
 }
 
 .header-text p span {
-    font-size:  50px;
+    font-size: 50px;
 }
 
 .header-text h1 {
-    font-size:  30px;
+    font-size: 30px;
 }
 
 /* Projects Styling */
 .Projects_Container {
-    margin-left: 100px; /* Left margin for the Projects section */
+    margin-left: 100px;
+    /* Left margin for the Projects section */
     margin-top: 100px;
     font-size: 50px;
     cursor: pointer;
     font-weight: bold;
-    padding-top: 50px; /* Add padding for smooth scrolling */
+    padding-top: 50px;
+    /* Add padding for smooth scrolling */
 }
 
 .Project_Titles {
-    margin-left: 100px; /* Left margin for the Project titles */
-    margin-top: 70px; 
+    margin-left: 100px;
+    /* Left margin for the Project titles */
+    margin-top: 70px;
     font-size: 30px;
     color: rgb(248, 244, 244);
-    display: flex; /* Use flexbox to arrange images side by side */
-    justify-content: space-start; /* Add equal spacing between images */
+    display: flex;
+    /* Use flexbox to arrange images side by side */
+    justify-content: space-start;
+    /* Add equal spacing between images */
 }
 
 .Project_Titles a {
-    margin-right: 10px; /* Add some spacing between each image */
+    margin-right: 10px;
+    /* Add some spacing between each image */
 }
 
 .Project_Titles a img {
-    width: 400px; /* Set the width of the image to 400 pixels */
+    width: 400px;
+    /* Set the width of the image to 400 pixels */
     height: 400px;
     transition: transform 0.3s ease;
 }
 
 .Project_Titles a img:hover {
-    transform: scale(1.1); /* Increase the size by 10% (adjust as desired) */
+    transform: scale(1.1);
+    /* Increase the size by 10% */
 }
 
 .git-color {
-    color: blue; /* Color for Git links */
+    color: blue;
 }
 
 /* Education styles */
-.Education_Container {
-    padding-left: 50px; /* Adding space from the left side for the Education section */
-    padding-top: 50px; /* Add padding for smooth scrolling */
-}
-
 .Education_Container h1 {
     font-size: 40px;
     margin: 20px 0;
     margin-left: 50px;
-    margin-top: 200px;
 }
 
 .education {
-    margin: 10px; /*margin for the topics under education title*/
+    border: 2px solid white;
+    width: 500px;
+    margin: 50px;
+    /*margin for the topics under education title*/
 }
 
 /* Contact styles */
 .container {
     max-width: 800px;
-    margin-top: 100px;
     margin-bottom: 50px;
     text-align: left;
-    margin-left: 100px; /* Adding space from the left side for the Contact section */
+    margin-left: 100px;
+    /* Adding space from the left side for the Contact section */
     font-size: 40px;
-    padding-top: 50px; /* Add padding for smooth scrolling */
 }
 
 .contact-links {
     list-style-type: none;
     padding: 0;
-    text-align: left; /*Styling of icons*/
-    display: flex; /* Add flexbox to align icons side by side */
+    text-align: left;
+    /*Styling of icons*/
+    display: flex;
+    /* Add flexbox to align icons side by side */
 }
 
 .contact-links li {
-    margin-right: 20px; /* Add some spacing between the icons */
+    margin-right: 20px;
+    /* Add some spacing between the icons */
 }
 
 .contact-links li a {
     text-decoration: none;
-    color: #007BFF; /* colors for the icons */
+    color: #007BFF;
+    /* colors for the icons */
 }
 
 /* Additional styles for the smooth scrolling effect */
 html {
-    scroll-behavior: smooth; /* Enable smooth scrolling for the whole page */
+    scroll-behavior: smooth;
 }
