@@ -15,6 +15,7 @@ h1 {
 .container {
     padding: 10px 10%;
     padding-left: 0%;
+   
 }
 
 nav {
@@ -31,7 +32,7 @@ nav ul li {
 }
 
 #header nav ul li a {
-    color: #d1d1d1;
+    color: #007BFF;
     /* Color for navigation menu links */
     text-decoration: none;
     font-size: 18px;
@@ -56,13 +57,10 @@ nav ul li {
 
 #header nav ul li a:hover::after {
     width: 100%;
-    /* Underline effect on hover */
 }
 
-/* Additional styles for the "Hello, I'm Vaishnavi Padhar" section */
 .header-text {
     margin-left: 100px;
-    /* Left margin for the "Hello, I'm Vaishnavi Padhar" section */
     font-size: 30px;
 
 }
@@ -78,7 +76,6 @@ nav ul li {
 /* Projects Styling */
 .Projects_Container {
     margin-left: 100px;
-    /* Left margin for the Projects section */
     margin-top: 100px;
     font-size: 50px;
     cursor: pointer;
@@ -89,12 +86,10 @@ nav ul li {
 
 .Project_Titles {
     margin-left: 100px;
-    /* Left margin for the Project titles */
     margin-top: 70px;
     font-size: 30px;
     color: rgb(248, 244, 244);
     display: flex;
-    /* Use flexbox to arrange images side by side */
     justify-content: space-start;
     /* Add equal spacing between images */
 }
@@ -140,7 +135,6 @@ nav ul li {
     margin-bottom: 50px;
     text-align: left;
     margin-left: 100px;
-    /* Adding space from the left side for the Contact section */
     font-size: 40px;
 }
 
@@ -148,21 +142,20 @@ nav ul li {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    /*Styling of icons*/
     display: flex;
-    /* Add flexbox to align icons side by side */
+    /* flexbox to align icons side by side */
 }
 
 .contact-links li {
     margin-right: 20px;
-    /* Add some spacing between the icons */
+    /* spacing between the icons */
 }
 
 .contact-links li a {
     text-decoration: none;
     color: #007BFF;
-    /* colors for the icons */
 }
+
 
 /* Additional styles for the smooth scrolling effect */
 html {
